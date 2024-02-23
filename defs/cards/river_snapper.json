@@ -1,0 +1,7 @@
+{
+    "name": "river_snapper",
+    "images": {
+        "front": "river_snapper.png",
+        "back": "common.png"
+    }
+}

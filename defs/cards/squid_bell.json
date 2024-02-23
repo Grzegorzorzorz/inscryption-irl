@@ -1,0 +1,7 @@
+{
+    "name": "squid_bell",
+    "images": {
+        "front": "squid_bell.png",
+        "back": "common.png"
+    }
+}

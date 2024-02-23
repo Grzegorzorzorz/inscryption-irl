@@ -1,0 +1,7 @@
+{
+    "name": "kingfisher",
+    "images": {
+        "front": "kingfisher.png",
+        "back": "common.png"
+    }
+}

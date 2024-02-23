@@ -1,0 +1,7 @@
+{
+    "name": "rattler",
+    "images": {
+        "front": "rattler.png",
+        "back": "common.png"
+    }
+}

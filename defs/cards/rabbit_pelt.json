@@ -1,0 +1,7 @@
+{
+    "name": "rabbit_pelt",
+    "images": {
+        "front": "rabbit_pelt.png",
+        "back": "common.png"
+    }
+}

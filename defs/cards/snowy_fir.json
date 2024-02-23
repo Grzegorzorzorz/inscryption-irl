@@ -1,0 +1,7 @@
+{
+    "name": "snowy_fir",
+    "images": {
+        "front": "snowy_fir.png",
+        "back": "common.png"
+    }
+}

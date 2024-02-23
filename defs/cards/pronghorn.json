@@ -1,0 +1,7 @@
+{
+    "name": "pronghorn",
+    "images": {
+        "front": "pronghorn.png",
+        "back": "common.png"
+    }
+}

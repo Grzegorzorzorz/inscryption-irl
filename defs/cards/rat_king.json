@@ -1,0 +1,7 @@
+{
+    "name": "rat_king",
+    "images": {
+        "front": "rat_king.png",
+        "back": "common.png"
+    }
+}

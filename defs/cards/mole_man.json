@@ -1,0 +1,7 @@
+{
+    "name": "mole_man",
+    "images": {
+        "front": "mole_man.png",
+        "back": "common.png"
+    }
+}

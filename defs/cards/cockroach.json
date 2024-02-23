@@ -1,0 +1,7 @@
+{
+    "name": "cockroach",
+    "images": {
+        "front": "cockroach.png",
+        "back": "common.png"
+    }
+}

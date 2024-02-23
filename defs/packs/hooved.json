@@ -1,0 +1,10 @@
+{
+	"name": "hooved",
+	"cards": {
+		"black_goat": 2,
+		"elk": 3,
+		"elk_fawn": 2,
+		"moose_buck": 1,
+		"pronghorn": 2
+	}
+}

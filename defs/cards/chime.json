@@ -1,0 +1,7 @@
+{
+    "name": "chime",
+    "images": {
+        "front": "chime.png",
+        "back": "common.png"
+    }
+}

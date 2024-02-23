@@ -1,0 +1,7 @@
+{
+    "name": "deathcard",
+    "images": {
+        "front": "blank.png",
+        "back": "deathcard.png"
+    }
+}

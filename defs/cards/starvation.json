@@ -1,0 +1,7 @@
+{
+    "name": "starvation",
+    "images": {
+        "front": "starvation.png",
+        "back": "common.png"
+    }
+}

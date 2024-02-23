@@ -1,0 +1,7 @@
+{
+    "name": "hungry_child",
+    "images": {
+        "front": "hungry_child.png",
+        "back": "common.png"
+    }
+}

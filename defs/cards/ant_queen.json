@@ -1,0 +1,7 @@
+{
+    "name": "ant_queen",
+    "images": {
+        "front": "ant_queen.png",
+        "back": "common.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "amoeba",
+    "images": {
+        "front": "amoeba.png",
+        "back": "common.png"
+    }
+}

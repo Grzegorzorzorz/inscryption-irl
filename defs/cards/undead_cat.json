@@ -1,0 +1,7 @@
+{
+    "name": "undead_cat",
+    "images": {
+        "front": "undead_cat.png",
+        "back": "common.png"
+    }
+}

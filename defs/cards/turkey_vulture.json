@@ -1,0 +1,7 @@
+{
+    "name": "turkey_vulture",
+    "images": {
+        "front": "turkey_vulture.png",
+        "back": "common.png"
+    }
+}

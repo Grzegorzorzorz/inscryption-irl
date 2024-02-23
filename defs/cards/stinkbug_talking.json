@@ -1,0 +1,7 @@
+{
+    "name": "stinkbug_talking",
+    "images": {
+        "front": "stinkbug_talking.png",
+        "back": "common.png"
+    }
+}

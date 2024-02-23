@@ -1,0 +1,7 @@
+{
+    "name": "opossum",
+    "images": {
+        "front": "opossum.png",
+        "back": "common.png"
+    }
+}

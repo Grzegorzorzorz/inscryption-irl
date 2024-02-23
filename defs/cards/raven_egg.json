@@ -1,0 +1,7 @@
+{
+    "name": "raven_egg",
+    "images": {
+        "front": "raven_egg.png",
+        "back": "common.png"
+    }
+}

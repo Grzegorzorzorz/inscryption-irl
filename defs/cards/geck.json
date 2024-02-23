@@ -1,0 +1,7 @@
+{
+    "name": "geck",
+    "images": {
+        "front": "geck.png",
+        "back": "common.png"
+    }
+}

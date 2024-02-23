@@ -1,0 +1,7 @@
+{
+    "name": "wriggling_leg",
+    "images": {
+        "front": "wriggling_leg.png",
+        "back": "common.png"
+    }
+}

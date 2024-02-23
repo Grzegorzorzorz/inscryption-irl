@@ -1,0 +1,7 @@
+__pycache__/
+.vscode/
+out/
+venv/
+res/**/*.png
+!res/fronts/README.txt
+!res/backs/README.txt

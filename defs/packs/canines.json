@@ -1,0 +1,10 @@
+{
+	"name": "canines",
+	"cards": {
+		"alpha": 1,
+		"wolf": 5,
+		"bloodhound": 2,
+		"coyote": 3,
+		"wolf_cub": 2
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "name": "skunk",
+    "images": {
+        "front": "skunk.png",
+        "back": "common.png"
+    }
+}

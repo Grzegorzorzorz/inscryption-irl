@@ -1,0 +1,7 @@
+{
+    "name": "stoat_talking",
+    "images": {
+        "front": "stoat_talking.png",
+        "back": "common.png"
+    }
+}

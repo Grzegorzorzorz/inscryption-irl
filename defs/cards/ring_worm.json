@@ -1,0 +1,7 @@
+{
+    "name": "ring_worm",
+    "images": {
+        "front": "ring_worm.png",
+        "back": "common.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "wolf_talking",
+    "images": {
+        "front": "wolf_talking.png",
+        "back": "common.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "elk_fawn",
+    "images": {
+        "front": "elk_fawn.png",
+        "back": "common.png"
+    }
+}

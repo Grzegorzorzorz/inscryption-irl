@@ -1,0 +1,7 @@
+{
+    "name": "worker_ant",
+    "images": {
+        "front": "worker_ant.png",
+        "back": "common.png"
+    }
+}

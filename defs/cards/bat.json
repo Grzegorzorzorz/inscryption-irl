@@ -1,0 +1,7 @@
+{
+    "name": "bat",
+    "images": {
+        "front": "bat.png",
+        "back": "common.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "gold_nugget",
+    "images": {
+        "front": "gold_nugget.png",
+        "back": "common.png"
+    }
+}

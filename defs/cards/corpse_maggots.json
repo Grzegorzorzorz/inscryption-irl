@@ -1,0 +1,7 @@
+{
+    "name": "corpse_maggots",
+    "images": {
+        "front": "corpse_maggots.png",
+        "back": "common.png"
+    }
+}

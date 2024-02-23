@@ -1,0 +1,7 @@
+{
+    "name": "grand_fir",
+    "images": {
+        "front": "grand_fir.png",
+        "back": "common.png"
+    }
+}

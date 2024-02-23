@@ -1,0 +1,7 @@
+{
+    "name": "squid_mirror",
+    "images": {
+        "front": "squid_mirror.png",
+        "back": "common.png"
+    }
+}

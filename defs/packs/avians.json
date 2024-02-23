@@ -1,0 +1,11 @@
+{
+	"name": "avians",
+	"cards": {
+		"kingfisher": 3,
+		"magpie": 2,
+		"raven": 4,
+		"raven_egg": 2,
+		"sparrow": 3,
+		"turkey_vulture": 2
+	}
+}

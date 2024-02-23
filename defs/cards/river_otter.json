@@ -1,0 +1,7 @@
+{
+    "name": "river_otter",
+    "images": {
+        "front": "river_otter.png",
+        "back": "common.png"
+    }
+}

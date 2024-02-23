@@ -1,0 +1,7 @@
+{
+    "name": "stump",
+    "images": {
+        "front": "stump.png",
+        "back": "common.png"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "mantis_god",
+    "images": {
+        "front": "mantis_god.png",
+        "back": "common.png"
+    }
+}

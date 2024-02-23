@@ -1,0 +1,7 @@
+{
+    "name": "pack_rat",
+    "images": {
+        "front": "pack_rat.png",
+        "back": "common.png"
+    }
+}

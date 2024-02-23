@@ -1,0 +1,7 @@
+{
+    "name": "pack_mule",
+    "images": {
+        "front": "pack_mule.png",
+        "back": "common.png"
+    }
+}

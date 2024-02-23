@@ -1,0 +1,7 @@
+{
+    "name": "bait_bucket",
+    "images": {
+        "front": "bait_bucket.png",
+        "back": "common.png"
+    }
+}

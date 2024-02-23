@@ -1,0 +1,7 @@
+{
+    "name": "dam",
+    "images": {
+        "front": "dam.png",
+        "back": "common.png"
+    }
+}

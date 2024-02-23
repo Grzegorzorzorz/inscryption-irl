@@ -1,0 +1,7 @@
+{
+    "name": "amalgam",
+    "images": {
+        "front": "amalgam.png",
+        "back": "common.png"
+    }
+}

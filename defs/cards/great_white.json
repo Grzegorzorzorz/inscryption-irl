@@ -1,0 +1,7 @@
+{
+    "name": "great_white",
+    "images": {
+        "front": "great_white.png",
+        "back": "common.png"
+    }
+}

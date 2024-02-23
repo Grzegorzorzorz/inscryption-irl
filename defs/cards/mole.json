@@ -1,0 +1,7 @@
+{
+    "name": "mole",
+    "images": {
+        "front": "mole.png",
+        "back": "common.png"
+    }
+}

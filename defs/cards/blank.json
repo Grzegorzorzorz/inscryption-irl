@@ -1,0 +1,7 @@
+{
+    "name": "blank",
+    "images": {
+        "front": "blank.png",
+        "back": "common.png"
+    }
+}

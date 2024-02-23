@@ -1,0 +1,7 @@
+{
+    "name": "furry_tail",
+    "images": {
+        "front": "furry_tail.png",
+        "back": "common.png"
+    }
+}

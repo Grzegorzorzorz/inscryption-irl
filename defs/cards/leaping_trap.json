@@ -1,0 +1,7 @@
+{
+    "name": "leaping_trap",
+    "images": {
+        "front": "leaping_trap.png",
+        "back": "common.png"
+    }
+}

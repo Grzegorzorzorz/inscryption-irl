@@ -1,0 +1,7 @@
+{
+    "name": "greater_smoke",
+    "images": {
+        "front": "greater_smoke.png",
+        "back": "common.png"
+    }
+}

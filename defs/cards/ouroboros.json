@@ -1,0 +1,7 @@
+{
+    "name": "ouroboros",
+    "images": {
+        "front": "ouroboros.png",
+        "back": "common.png"
+    }
+}
