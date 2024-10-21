@@ -1,11 +1,16 @@
 import deck
 
+import copy
 import glob
 import math
 import pathlib
 
 import fpdf
 import wand.image
+
+
+def calculateBorderSizePx(card_px: int, border_mm: int, card_mm: int) -> float:
+    border_px = card_px
 
 
 def load_images(res_dir: pathlib.Path,
@@ -37,12 +42,19 @@ def tile_images(
     if side != "front" and side != "back":
         return None
 
-    card_sheet = wand.image.Image()
-    print(side)
+    card_sheet = wand.image.Image(depth=24)
+    print(f"Generating {side}...")
+
+    background = wand.color.Color("#000000")
 
     if side == "front":
         for image in images[side]:
-            card_sheet.image_add(image)
+            img = wand.image.Image(image=image)
+            img.alpha_channel = "remove"
+            img.background = background
+            img.border(background, 25, 24)
+            card_sheet.image_add(img)
+            img.close()
     else:
         for i in range(0, math.ceil(len(images[side]) / 3)):
             row = images[side][i*3:(i*3)+3]
@@ -52,7 +64,7 @@ def tile_images(
                 card_sheet.image_add(image)
 
     card_sheet.montage(thumbnail=geometry, tile=layout)
-    card_sheet.format = "png"
+    card_sheet.depth = 24
 
     return card_sheet
 
@@ -66,10 +78,12 @@ def dereference_card_images(
     card_images["back"] = []
 
     for card in cards:
+        if card is None:
+            continue
         card_images["front"].append(
-                images.get(f"f:{card.images.get('front')}"))
+            images.get(f"f:{card.images.get('front')}"))
         card_images["back"].append(
-                images.get(f"b:{card.images.get('back')}"))
+            images.get(f"b:{card.images.get('back')}"))
 
     return card_images
 
@@ -79,6 +93,7 @@ def compile_pdf(out_dir: pathlib.Path,
     pdf = fpdf.FPDF()
     images = glob.glob(str(out_dir.joinpath("img/*")))
 
+    print("Compiling pdf...")
     for i in range(0, math.floor(len(images) / 2)):
         pdf.add_page()
         pdf.image(str(out_dir.joinpath(f"img/front-{i}.png")),

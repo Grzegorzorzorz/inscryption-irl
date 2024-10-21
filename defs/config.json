@@ -1,6 +1,11 @@
 {
-	"card": {
-		"height_px": 1050,
+	"images": {
 		"width_px": 691
+		"height_px": 1050,
 	},
+	"sheet": {
+		"front_border_mm": 2,
+		"card_width_mm": 57.5,
+		"card_height_mm": 89
+	}
 }

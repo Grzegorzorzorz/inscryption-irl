@@ -38,3 +38,5 @@ python -m pip install -r requirements.txt
 ```
 
 You should now be ready to go!
+
+## Usage
